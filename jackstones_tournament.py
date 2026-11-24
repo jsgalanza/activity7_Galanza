@@ -3,7 +3,7 @@ scores = []
 for i in range(1, 6):
     while True:
         score = int(input(f"Enter Score {i}: "))
-        scores.append(score)
+            scores.append(score)
 
 backup_scores = scores.copy()
 
