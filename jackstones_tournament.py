@@ -3,11 +3,7 @@ scores = []
 for i in range(1, 6):
     while True:
         score = int(input(f"Enter Score {i}: "))
-        if 0 <= score <= 10:
-            scores.append(score)
-            break
-        else:
-            print("Invalid score! Enter a score from 0 to 10.")
+        scores.append(score)
 
 backup_scores = scores.copy()
 
